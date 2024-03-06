@@ -42,8 +42,8 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 /* Step 5 - Array */
 
 // Declare an array variable to store favorite foods
-const favFoods = ['Pizza', 'Sushi', 'Burgers'];
-
+const favFoods = ['Pizza', 'Lagsana', 'Burgers'];
+xs
 // Append the favorite foods array onto the displayed content of the food element
 foodElement.innerHTML = favFoods.join('<br>');
 
