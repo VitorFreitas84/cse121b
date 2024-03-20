@@ -52,18 +52,3 @@ const additionalFood = 'Ice Cream';
 
 // Add the additional food item to the favorite foods array
 favFoods.push(additionalFood);
-
-// Append the modified favorite foods array onto the displayed content of the food element
-foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
-
-// Remove the first element from the favorite foods array
-favFoods.shift();
-
-// Append the modified favorite foods array onto the displayed content of the food element
-foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
-
-// Remove the last element from the favorite foods array
-favFoods.pop();
-
-// Append the final modified favorite foods array onto the displayed content of the food element
-foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
