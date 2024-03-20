@@ -27,6 +27,10 @@ myProfile.placeLived.push(
         place: "Houston TX, USA",
         length: "8 months"
     }
+    {
+        place: "Palo Alto, USA",
+        length: "2 years"
+    }
 );
 /* DOM Manipulation - Output */
 
