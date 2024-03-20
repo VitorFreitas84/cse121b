@@ -4,7 +4,7 @@
 let myProfile = {
     name: "Vitor Hugo Santos de Freitas",
     photo: "images/IMG_6311.png",
-    favoriteFood: ["Pizza","Burger"," Beef Stroganoff"],
+    favoriteFood: ["Pizza", "Burger", "Beef Stroganoff"],
     hobbies: ["Rc Airplane", "Hiking", " Football", "Tv Shows"],
     placeLived: []
 };
@@ -26,10 +26,6 @@ myProfile.placeLived.push(
     {
         place: "Houston TX, USA",
         length: "8 months"
-    }
-    {
-        place: "Palo Alto, USA",
-        length: "2 years"
     }
 );
 /* DOM Manipulation - Output */
